@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "passiveendermen",
-  "version": "4.5",
+  "version": "4.6",
 
   "name": "Passive Endermen",
   "description": "Configurably prevent an enderman from picking up blocks, griefing and attacking players.",
@@ -18,7 +18,7 @@
   "environment": "*",
   "entrypoints": { "main": [ "com.natamus.passiveendermen.ModFabric" ], "modmenu": [ "com.natamus.passiveendermen.fabric.config.IntegrateModMenu" ] },
   "mixins": [
-    "passiveendermen_fabric.mixins.json"
+    "passiveendermen.mixins.json"
   ],
 
   "depends": {
@@ -26,7 +26,7 @@
     "fabric": "*",
     "minecraft": ">=1.19",
     "java": ">=17",
-    "collective": ">=7.21"
+    "collective": ">=7.26"
   },
 
   "custom": {

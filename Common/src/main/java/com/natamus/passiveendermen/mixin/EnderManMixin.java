@@ -1,4 +1,4 @@
-package com.natamus.passiveendermen.fabric.mixin;
+package com.natamus.passiveendermen.mixin;
 
 import com.natamus.passiveendermen.config.ConfigHandler;
 import net.minecraft.world.entity.monster.EnderMan;
