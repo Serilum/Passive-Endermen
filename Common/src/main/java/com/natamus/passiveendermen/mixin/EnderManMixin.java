@@ -18,7 +18,7 @@ public class EnderManMixin {
 		}
 	}
 
-	@Inject(method = "isLookingAtMe(Lnet/minecraft/world/entity/player/Player;)Z", at = @At(value = "HEAD"), cancellable = true)
+	@Inject(method = "isBeingStaredBy(Lnet/minecraft/world/entity/player/Player;)Z", at = @At(value = "HEAD"), cancellable = true)
 	void isLookingAtMe(Player player, CallbackInfoReturnable<Boolean> cir) {
 		if (ConfigHandler.preventEndermenFromAttackingFirst) {
 			cir.setReturnValue(false);
