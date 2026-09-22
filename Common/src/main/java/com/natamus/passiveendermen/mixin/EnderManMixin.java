@@ -1,7 +1,7 @@
 package com.natamus.passiveendermen.mixin;
 
 import com.natamus.passiveendermen.config.ConfigHandler;
-import net.minecraft.world.entity.monster.EnderMan;
+import net.minecraft.world.entity.monster.Enderman;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.block.state.BlockState;
 import org.spongepowered.asm.mixin.Mixin;
@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-@Mixin(value = EnderMan.class, priority = 1001)
+@Mixin(value = Enderman.class, priority = 1001)
 public class EnderManMixin {
 	@Inject(method = "teleport(DDD)Z", at = @At(value = "HEAD"), cancellable = true)
 	private void teleport(double p_32544_, double p_32545_, double p_32546_, CallbackInfoReturnable<Boolean> cir) {
