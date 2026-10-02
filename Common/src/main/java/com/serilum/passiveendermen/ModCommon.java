@@ -1,6 +1,6 @@
-package com.natamus.passiveendermen;
+package com.serilum.passiveendermen;
 
-import com.natamus.passiveendermen.config.ConfigHandler;
+import com.serilum.passiveendermen.config.ConfigHandler;
 
 public class ModCommon {
 

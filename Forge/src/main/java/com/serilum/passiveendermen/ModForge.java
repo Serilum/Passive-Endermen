@@ -1,9 +1,9 @@
-package com.natamus.passiveendermen;
+package com.serilum.passiveendermen;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.passiveendermen.forge.config.IntegrateForgeConfig;
-import com.natamus.passiveendermen.util.Reference;
+import com.serilum.passiveendermen.forge.config.IntegrateForgeConfig;
+import com.serilum.passiveendermen.util.Reference;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
