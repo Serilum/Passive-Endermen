@@ -1,7 +1,7 @@
-package com.natamus.passiveendermen.config;
+package com.serilum.passiveendermen.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.passiveendermen.util.Reference;
+import com.serilum.passiveendermen.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;
