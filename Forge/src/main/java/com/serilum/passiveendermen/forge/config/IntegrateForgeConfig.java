@@ -1,7 +1,7 @@
-package com.natamus.passiveendermen.forge.config;
+package com.serilum.passiveendermen.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.passiveendermen.util.Reference;
+import com.serilum.passiveendermen.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 
