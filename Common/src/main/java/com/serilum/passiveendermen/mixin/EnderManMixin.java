@@ -1,6 +1,6 @@
-package com.natamus.passiveendermen.mixin;
+package com.serilum.passiveendermen.mixin;
 
-import com.natamus.passiveendermen.config.ConfigHandler;
+import com.serilum.passiveendermen.config.ConfigHandler;
 import net.minecraft.world.entity.monster.EnderMan;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.block.state.BlockState;

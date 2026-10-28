@@ -1,9 +1,9 @@
-package com.natamus.passiveendermen;
+package com.serilum.passiveendermen;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.passiveendermen.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.passiveendermen.util.Reference;
+import com.serilum.passiveendermen.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.passiveendermen.util.Reference;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;
